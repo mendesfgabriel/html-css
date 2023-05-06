@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Para entender, abra este site em dispositivos diferentes ou mude o tamanhho do navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudios!</h1>
+    <p>É dessa forma que se reproduz áudios em HTML5:</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/late-night.mp3" type="audio/mpeg">
+        <source src="midia/late-night.ogg" type="audio/ogg">
+        <source src="midia/late-night.wav" type="audio/wav">
+        <p>Seu navegador não está conseguindo reproduzir o áudio. <a href="midia/late-night.mp3" download="late-night.mp3" type="audio-mpeg">Clique aqui para baixá-lo em MP3</a></p>
+    </audio>
+</body>
+</html>

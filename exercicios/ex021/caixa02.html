@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: rgb(200, 200, 253);
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 2px 0px 0px rgb(0 0 0 / 34%);
+
+        }
+
+        nav {
+            background-color: lightgrey;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315)
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px 16px;
+            box-shadow: 5px 5px 4px 1px rgb(0 0 0 / 32%);
+        }
+
+        article {
+            background-color: aquamarine;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(190, 130, 130);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Charme Chulo</h2>
+                <p>Rock e Viola</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre música</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima repellendus at, molestiae quidem porro non quasi sunt! Hic iusto corporis itaque ratione? Eveniet iste, voluptatum recusandae a reprehenderit molestias non.</p>
+                <aside>
+                    <p>Artigo escrito por João.</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabriel</p>
+    </footer>
+</body>
+</html>
